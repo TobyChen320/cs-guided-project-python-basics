@@ -10,5 +10,7 @@ Examples:
 - num_args(True, False) ➞ 2
 - num_args({}) ➞ 1
 """
+
+
 def num_args():
     # Your code here
