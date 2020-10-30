@@ -15,4 +15,3 @@ Notes:
 """
 def mapping(letters):
     # Your code here
-
