@@ -12,5 +12,11 @@ Examples:
 """
 
 
-def num_args():
-    # Your code here
+def num_args(*x):
+    return len(x)
+
+print(num_args())
+print(num_args("foo"))
+print(num_args("foo", "bar"))
+print(num_args(True, False))
+print(num_args({}))
